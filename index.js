@@ -37,7 +37,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Operating Die Gruppe", "made by alkkuy", "Miro on ihana 😘"];
+const statusMessages = ["Snapscore 🆙", "dsc.gg/snapscoreup"];
 
 
 let currentIndex = 0;
@@ -99,7 +99,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 5000);
+  }, 4000);
 });
 
 login();
