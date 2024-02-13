@@ -37,7 +37,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Snapscore 🆙", "dsc.gg/snapscoreup"];
+const statusMessages = ["Snapscore 🆙 Community", "dsc.gg/snapscoreup"];
 
 
 let currentIndex = 0;
